@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espejos del Alma - Accesorios únicos que reflejan tu esencia</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-text">Espejos del <span>Alma</span></div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#caracteristicas">Características</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Accesorios que reflejan <span>tu esencia</span></h1>
+                <p class="hero-subtitle">Descubre nuestra exclusiva colección de accesorios artesanales que expresan tu personalidad y conectan con tu alma.</p>
+                <div class="hero-buttons">
+                    <a href="#productos" class="btn btn-primary">Ver Colección</a>
+                    <a href="#contacto" class="btn btn-secondary">Contáctanos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-container">
+                    <!-- Imagen real -->
+                    <img src="images/oya.jpg" alt="Imagen Principal" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características -->
+    <section class="features" id="caracteristicas">
+        <div class="features-container">
+            <h2 class="section-title">¿Por qué elegirnos?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3 class="feature-title">Artesanía única</h3>
+                    <p class="feature-desc">Cada pieza es cuidadosamente elaborada a mano, garantizando un producto único y con alma propia.</p>
+                </div>
+                <div class="feature-card">
+                    <h3 class="feature-title">Materiales selectos</h3>
+                    <p class="feature-desc">Utilizamos materiales de la más alta calidad para crear accesorios duraderos y con un acabado excepcional.</p>
+                </div>
+                <div class="feature-card">
+                    <h3 class="feature-title">Diseño con propósito</h3>
+                    <p class="feature-desc">Nuestros diseños no solo son hermosos, sino que están creados para conectar con tu energía y espíritu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos Destacados -->
+    <section class="products" id="productos">
+        <div class="products-container">
+            <h2 class="section-title">Productos Destacados</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-badge">Nuevo</div>
+                    <div class="product-image">
+                        <!-- Placeholder para imagen -->
+                        <img src="images/Imagen28.jpg" alt="Producto 1" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Collar flores</h3>
+                        <p class="product-price">$28.500</p>
+                        <p class="product-desc">Collar artesanal con pequeñas flores en tonos rojo y blanco. Ideal para un look alegre y lleno de color.</p>
+                        
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- Placeholder para imagen -->
+                        <img src="images/Imagen29.jpg" alt="Producto 2" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Collar en mostacilla</h3>
+                        <p class="product-price">$19.900</p>
+                        <p class="product-desc">Elegante collar hecho en mostacilla blanca, cafe y turquesa. Diseño artesanal que aporta un toque sutil y armonioso a tu estilo.</p>
+                        
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Destacado</div>
+                    <div class="product-image">
+                        <!-- Placeholder para imagen -->
+                        <img src="images/ojoturco1.jpg" alt="Producto 3" style="width: 100%; height: 100%; object-fit: cover;">                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Aretes ojo turco</h3>
+                        <p class="product-price">$15.700</p>
+                        <p class="product-desc">Aretes artesanales con diseño de ojo turco en tonos turquesa y dorado. Amuleto de protección con acabado detallado y único.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contacto">
+        <div class="cta-container">
+            <h2 class="cta-title">Encuentra tu pieza ideal</h2>
+            <p class="cta-text">Déjanos tus datos y te enviaremos nuestro catálogo completo con todas las opciones disponibles.</p>
+            <!-- Formulario con funcionalidad de envío de email -->
+            <form id="contactForm" action="https://formsubmit.co/isamejiasa40@gmail.com" method="POST" style="max-width: 500px; margin: 0 auto;">
+                <!-- Campos ocultos para configurar FormSubmit -->
+                <input type="hidden" name="_subject" value="Nueva solicitud de catálogo - Espejos del Alma">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="text" name="nombre" placeholder="Tu nombre" style="width: 100%; padding: 15px; border-radius: 8px; border: none; margin-bottom: 15px; font-family: inherit;">
+                <input type="email" name="email" placeholder="Tu email" required style="width: 100%; padding: 15px; border-radius: 8px; border: none; margin-bottom: 15px; font-family: inherit;">
+                <input type="tel" name="telefono" placeholder="Tu teléfono (opcional)" style="width: 100%; padding: 15px; border-radius: 8px; border: none; margin-bottom: 15px; font-family: inherit;">
+                <textarea name="mensaje" placeholder="¿Tienes alguna pregunta o preferencia? (opcional)" style="width: 100%; padding: 15px; border-radius: 8px; border: none; margin-bottom: 15px; font-family: inherit; min-height: 100px;"></textarea>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Recibir catálogo</button>
+            </form>
+            <!-- Mensaje de éxito (aparecerá con JavaScript) -->
+            <div id="formSuccess" class="form-success-message">
+                ¡Gracias por tu interés! Te hemos enviado un correo con nuestro catálogo.
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p class="footer-text">@espejosdelama_med | +57 3192536360</p>
+            <p class="copyright">&copy; 2025 Espejos del Alma. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Link to Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Script para detectar si se vuelve desde una redirección exitosa -->
+    <script>
+        // Comprobar si hay un parámetro de éxito en la URL
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.has('success')) {
+                document.getElementById('formSuccess').style.display = 'block';
+                document.getElementById('contactForm').style.display = 'none';
+                // Desplazarse hasta la sección de contacto
+                document.getElementById('contacto').scrollIntoView();
+            }
+        }
+    </script>
+</body>
+</html>
